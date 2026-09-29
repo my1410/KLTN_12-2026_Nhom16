@@ -1,0 +1,28 @@
+.home-page {
+  overflow: hidden;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.hero-section,
+.section-block {
+  padding: 5rem 0;
+}
+
+.hero-copy h1,
+.section-heading h2,
+.employer-panel h2 {
+  color: #111827;
+  font-weight: 800;
+}
